@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.button1{
+    background-color: white;
+    transition: 0.5s;
+
+}
+.button1:hover{
+    background-color: blue;
+}
+.banner{
+    background-image: url(./images/banner-bg-01.jpg);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center center;
+}
+.txt-300{
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 300 !important;
+    font-size: 50px;
+    color: blue ;
+}
+.ft-siz{
+    font-size: 30px;
+}
+.ft-siz1{
+    font-size: 70px;
+}
+.txt-gif{
+    font-weight: 400;
+}
+.ft-wt{
+    font-weight: 300;
+}
+.siz{
+    font-weight: 300;
+    
+}
+@media screen and (max-width:575px) {
+    .pad-man{
+        padding-left:100px;
+    }
+    
+}
+@media screen and (max-width:426px) {
+    .pad-man{
+        padding-left:75px;
+    }
+    
+}
+@media screen and (max-width:376px) {
+    .pad-man{
+        padding-left:50px;
+    }
+    
+}
+.h2{
+    font-size: 40px !important;
+}
+.gg{
+    color: yellowgreen;
+}
